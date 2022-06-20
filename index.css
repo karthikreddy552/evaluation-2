@@ -1,0 +1,39 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+form>input:last-child {
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+form {
+    line-height: 1.5;
+    padding: 20px;
+}
+
+body>div {
+    display: flex;
+}
