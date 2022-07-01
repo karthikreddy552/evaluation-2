@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-1</title>
+</head>
+
+<body>
+    <input id="age" type="number" placeholder="Age" value="">
+    <button onclick="Submit()">Submit</button>
+    <p id="out">
+
+    </p>
+    <script>
+        function Submit() {
+            var age = document.getElementById("age").value;
+            var arr = document.getElementById("out");
+
+
+
+
+
+            if (age > 18) {
+                console.log("You can drive in India!");
+                arr.innerText = "You can drive in India!";
+                arr.style.color = "green";
+
+
+
+            } else if (age < 18) {
+                console.log("You cann not drive in India!")
+                arr.innerText = "You cann not drive in India!";
+                arr.style.color = "red";
+            } else {
+                console.log("You are just old enough to drive in India!")
+                arr.innerText = "You are just old enough to drive in India!";
+                arr.style.color = "coral"
+
+            }
+
+
+
+
+
+
+
+
+        }
+    </script>
+
+
+</body>
+
+
+</html>

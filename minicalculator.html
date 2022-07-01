@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input id="input1" type="number" placeholder="enter your number" value="">
+    <input id="input2" type="number" placeholder="enter your number" value="">
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">Division</button>
+    <h1 id="out"></h1>
+    <script>
+        function add() {
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+            var out = document.getElementById("out");
+            input1 = parseInt(input1);
+            input2 = parseInt(input2)
+            out.innerText = input1 + input2;
+        }
+
+        function sub() {
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+            var out = document.getElementById("out");
+            input1 = parseInt(input1);
+            input2 = parseInt(input2)
+            out.innerText = input1 - input2;
+        }
+
+        function mul() {
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+            var out = document.getElementById("out");
+            input1 = parseInt(input1);
+            input2 = parseInt(input2)
+            out.innerText = input1 * input2;
+        }
+
+        function div() {
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+            var out = document.getElementById("out");
+            input1 = parseInt(input1);
+            input2 = parseInt(input2)
+            out.innerText = input1 / input2;
+        }
+    </script>
+
+
+
+</body>
+
+</html>
